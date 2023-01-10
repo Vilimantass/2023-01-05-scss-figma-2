@@ -60,9 +60,14 @@
                 background-color: $color-white;
                 border-radius: 8px;
                 box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.15);
+                transition-duration: 0.4s;
+                cursor: pointer;
 
 
+                .title {
 
+                    text-transform: uppercase;
+                } 
 
 
 
@@ -71,12 +76,18 @@
                     background-color: $color-green;
                     border-radius: 8px;
                     box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.15);
+
+                    .title, .description {
+
+                        color: $color-white
+                    }
+
+                    .svg img {
+                        filter: invert(100%) sepia(85%) saturate(0%) hue-rotate(160deg) brightness(150%) contrast(150%);
+                    }
                 }
 
-                .title {
-
-                    text-transform: uppercase;
-                } 
+ 
 
             }
         }
