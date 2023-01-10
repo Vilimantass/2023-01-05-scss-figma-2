@@ -1,0 +1,86 @@
+.second-content {
+
+    // background-color: white;
+    // padding: 15px;
+
+    .second-wrapper {
+
+
+        .main-title-second {
+
+            display: block;
+            text-align: center;
+            padding: 15px;
+
+
+
+            .small-title {
+
+                width: 100%;
+                font-size: 0.8em;
+                font-style: normal;
+                text-transform: uppercase;
+            }
+
+            .big-title {
+
+                width: 100%;
+                font-size: 2vw;
+                font-style: normal;
+                text-transform: uppercase;
+
+                h3 {
+
+                    margin: 5px;
+                }
+            }
+        }
+
+        .second-content-menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            padding: 0px 0px 40px;
+
+            background: url(/pics/Dots\ 8px.1.svg) 7% 88%, url(/pics/Rectangle\ 497\ 2nd.png) 100% 90%;
+            background-repeat: no-repeat;
+
+            // background-image: url(/pics/Rectangle\ 497\ 2nd.png);
+
+
+            .box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 340px;
+                width: 25%;
+                padding: 3em;
+                margin: 2%;
+                background-color: $color-white;
+                border-radius: 8px;
+                box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.15);
+
+
+
+
+
+
+                &:hover {
+
+                    background-color: $color-green;
+                    border-radius: 8px;
+                    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.15);
+                }
+
+                .title {
+
+                    text-transform: uppercase;
+                } 
+
+            }
+        }
+
+    }
+
+}

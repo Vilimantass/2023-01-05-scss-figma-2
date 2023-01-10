@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+
+  background-color: rgb(229 227 221);
+  margin: 0;
+}
+
+
+.container {
+  
+  // display: inline-block;
+  font-family: 'Avenir Next LT Pro Regular', sans-serif;
+  max-width: 1420px;
+
+  padding-bottom: 50px;
+  
+
+
+}
+
+*h2 {
+
+  color: $color-yellow;
+}
+
+
+*h3 {
+
+  color: $color-green;
+}
+
