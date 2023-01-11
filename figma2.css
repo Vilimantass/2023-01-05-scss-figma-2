@@ -359,12 +359,15 @@ body {
 }
 .third-content .third-wrapper .main-pic {
   display: block;
-  width: 48%;
+  width: 50%;
   position: relative;
 }
 .third-content .third-wrapper .main-pic .picture {
-  width: 100%;
-  padding: 25% 0% 0% 0%;
+  width: 650px;
+  height: 650px;
+  padding: 140px 0% 0% 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .third-content .third-wrapper .main-pic::before {
   display: block;
@@ -376,13 +379,16 @@ body {
   position: absolute;
   top: 12%;
   left: 5%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .third-content .third-wrapper .main-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 45%;
-  padding: 8%;
+  padding: 100px 100px 100px 80px;
+  flex-wrap: nowrap;
 }
 .third-content .third-wrapper .main-title .small-title {
   font-size: 0.8em;

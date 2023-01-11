@@ -15,14 +15,15 @@
 
         .main-pic {
             display: block;
-            width: 48%;
+            width: 50%;
             position: relative;
 
             .picture {
 
-                width: 100%;
-                padding: 25% 0% 0% 0%;
-
+                width: 650px;
+                height: 650px;
+                padding: 140px 0% 0% 120px;
+                object-fit: cover;
 
 
             }
@@ -37,6 +38,7 @@
                 position: absolute;
                 top: 12%;
                 left: 5%;
+                object-fit: cover;
 
 
                 .picture {
@@ -57,7 +59,8 @@
             flex-direction: column;
             justify-content: center;
             width: 45%;
-            padding: 8%;
+            padding: 100px 100px 100px 80px;
+            flex-wrap: nowrap;
 
             .small-title {
 
